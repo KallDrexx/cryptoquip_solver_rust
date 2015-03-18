@@ -6,8 +6,8 @@ pub fn get_fingerprint(value: &str) -> String {
     let mut used_chars: HashMap<char, char> = HashMap::new();
 
     for character in value.chars() {
-        let lowercase_character = character.to_lowercase();
-        match used_chars.entry(character) {
+        let lowercase_character = character.to_lowercase().next().unwrap();
+        match used_chars.entry(lowercase_character) {
             Entry::Occupied(entry) => new_value.push(*entry.get()),
             Entry::Vacant(entry) => {
                 new_value.push(current_char);
