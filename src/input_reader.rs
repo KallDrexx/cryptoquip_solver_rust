@@ -29,10 +29,12 @@ pub fn read_input<T: Read>(mut reader: BufReader<T>) -> Vec<types::Fingerprinted
     }
 
     if words.len() > 0 {
-    	fingerprints.push(types::FingerprintedValue {
-    		fingerprinted: fingerprinter::get_fingerprint(&words[0][..]),
-    		original: words[0].clone()
-    	});
+    	for word in words.iter() {
+    		fingerprints.push(types::FingerprintedValue {
+	    		fingerprinted: fingerprinter::get_fingerprint(&word[..]),
+	    		original: word.clone()
+	    	});
+    	}
     }
 
     return fingerprints;
@@ -60,5 +62,19 @@ mod tests {
 		assert_eq!(output.len(), 1);
 		assert_eq!(output[0].original, "testing");
 		assert_eq!(output[0].fingerprinted, "abcadef");
+	}
+
+	#[test]
+	fn reads_and_fingerprints_multiple_values() {
+		let input = "my test\n".to_string();
+		let buf_reader = create_buf_reader(input);
+		let output = read_input(buf_reader);
+
+		assert_eq!(output.len(), 2);
+		assert_eq!(output[0].original, "my");
+		assert_eq!(output[0].fingerprinted, "ab");
+
+		assert_eq!(output[1].original, "test");
+		assert_eq!(output[1].fingerprinted, "abca");
 	}
 }
