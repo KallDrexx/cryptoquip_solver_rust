@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"char",
+				"character"
+			],
+			[
+				"finger",
+				"fingerprinted"
+			],
+			[
+				"fing",
+				"FingerprintedValue"
+			],
+			[
+				"origi",
+				"original"
+			],
+			[
+				"trim",
+				"trimmed_line"
+			],
+			[
+				"Testc",
+				"TestCategoryToRun"
+			],
+			[
+				"testcate",
+				"TestCategoryToRun"
+			],
+			[
+				"Run",
+				"RunNextTestImmediately"
+			],
+			[
+				"QueueSear",
+				"QueueSearchMachineName"
+			],
+			[
+				"mess",
+				"Messaging"
+			],
+			[
+				"sc",
+				"scenarioMembers"
+			],
+			[
+				"mod",
+				"modulesPathRawCommand"
+			],
+			[
+				"com",
+				"commandExistCount"
+			],
+			[
+				"module",
+				"modulesPath"
+			],
+			[
+				"modl",
+				"modulesPathCommand"
+			],
+			[
+				"bankd",
+				"BankDropFolder"
+			],
+			[
+				"splu",
+				"splunkHome"
+			],
+			[
+				"max",
+				"maxChoices"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"min",
+				"minDuration"
+			],
+			[
+				"exte",
+				"extensionBytes"
+			],
+			[
+				"ext",
+				"extensionContent"
+			],
+			[
+				"Getreq",
+				"GetRequestFullUrl"
+			],
+			[
+				"VPreq",
+				"VPRequestInvokeUrl"
+			],
+			[
+				"iden",
+				"identityContextType"
+			],
+			[
+				"Identity",
+				"IdentityContext"
+			],
+			[
+				"VPR",
+				"VPRequestInvokeUrl"
+			],
+			[
+				"empty",
+				"emptyRequest"
+			],
+			[
+				"emptyreq",
+				"emptyRequestType"
+			],
+			[
+				"VP",
+				"VPRequestTypes"
+			],
+			[
+				"Req",
+				"RequestUrl"
+			],
+			[
+				"automat",
+				"automationContext"
+			],
+			[
+				"autom",
+				"automationContext"
+			],
+			[
+				"Where",
+				"Where-Object"
+			],
+			[
+				"RequestObjectj",
+				"RequestObjectJson"
+			],
+			[
+				"Fore",
+				"ForEach-ObjectParallel"
+			],
+			[
+				"ident",
+				"IdentityContext"
+			],
+			[
+				"it",
+				"iterationsPerJob"
+			],
+			[
+				"address",
+				"addressBookId"
+			],
+			[
+				"add",
+				"addressBookId"
+			],
+			[
+				"ad",
+				"addressBookId"
+			],
+			[
+				"Requ",
+				"RequestObjectJson"
+			],
+			[
+				"Creat",
+				"CreateVendorAddressBook"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"Squ",
+				"squealerCmd"
+			],
+			[
+				"Viewpo",
+				"ViewpostDatabaseInstaller"
+			],
+			[
+				"conte",
+				"contexts"
+			],
+			[
+				"debu",
+				"debugQuickLastWrite"
+			],
+			[
+				"respon",
+				"responseEnvelope"
+			],
+			[
+				"sql",
+				"squealerCmd"
+			],
+			[
+				"base",
+				"baseArguments"
+			],
+			[
+				"Configu",
+				"ConfigureBusConfigEndpoints"
+			],
+			[
+				"nser",
+				"NServiceBusDirectory"
+			],
+			[
+				"ex",
+				"executable"
+			],
+			[
+				"param",
+				"Parameter"
+			],
+			[
+				"conn",
+				"connectionString"
+			],
+			[
+				"Conn",
+				"ConnectionStringDirectory"
+			],
+			[
+				"Set-con",
+				"Set-ConnectionStrings"
+			],
+			[
+				"databa",
+				"databaseName"
+			],
+			[
+				"databasein",
+				"databaseInstallerNugetPackageName"
+			],
+			[
+				"basear",
+				"baseArgumentsRcs"
+			],
+			[
+				"squa",
+				"squealerCmd"
+			],
+			[
+				"app",
+				"appPoolName"
+			],
+			[
+				"iis",
+				"iisexpress"
+			],
+			[
+				"New-",
+				"New-VPTempDirectory"
+			],
+			[
+				"show",
+				"ShowExtractedFiles"
+			],
+			[
+				"Extra",
+				"ExtractionRootFolder"
+			],
+			[
+				"Ext",
+				"ExtractionRootFolder"
+			],
+			[
+				"extrac",
+				"extractionFilePath"
+			],
+			[
+				"Zipf",
+				"ZipFileExtensions"
+			],
+			[
+				"extr",
+				"extractionFolderPath"
+			],
+			[
+				"ful",
+				"FullName"
+			],
+			[
+				"Expo",
+				"Export-ModuleMember"
+			],
+			[
+				"repl",
+				"Replace"
+			],
+			[
+				"templ",
+				"templateFileName"
+			],
+			[
+				"Modul",
+				"moduleFullPath"
+			],
+			[
+				"Expor",
+				"Export-NugetPackage"
+			],
+			[
+				"ass",
+				"Assembly"
+			],
+			[
+				"dep",
+				"dependencyBlacklist"
+			],
+			[
+				"Nuspe",
+				"NuspecFile"
+			],
+			[
+				"Win",
+				"WindowStyle"
+			],
+			[
+				"Set-vp",
+				"Set-VPDevServerSettings"
+			],
+			[
+				"Sele",
+				"Select-Object"
+			],
+			[
+				"Get-vprtea",
+				"Get-VPTeamNameForTypeNamespace"
+			],
+			[
+				"le",
+				"Length"
+			],
+			[
+				"Get-vp",
+				"Get-VPRequestResponseTypeProperty"
+			],
+			[
+				"Ini",
+				"Initialize-VPRequestResponseIdentity"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/utils/dictionary_reader.rs",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/utils/cryptoquip_input_reader.rs",
+			"settings":
+			{
+				"buffer_size": 943,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/alpha/mod.rs",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/alpha/fingerprinter.rs",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/alpha/types.rs",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indent XML"
+			],
+			[
+				"ind",
+				"Indent XML"
+			],
+			[
+				"in",
+				"Indent XML"
+			],
+			[
+				"toggle hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"pretty js",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"mark prev gith brow",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown preview github",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preview markdow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/dev/cryptoquip/cryptoquip_solver_rust/input.txt",
+		"/C/dev/cryptoquip/cryptoquip_solver_rust/src/main.rs",
+		"/C/dev/cryptoquip/cryptoquip_solver_rust/en-US.dic",
+		"/C/dev/cryptoquip/cryptoquip_solver/src/alpha/mod.rs",
+		"/C/dev/cryptoquip/cryptoquip_solver/src/main.rs",
+		"/C/dev/cryptoquip/cryptoquip_solver/src/utils/dictionary_reader.rs",
+		"/C/dev/cryptoquip/cryptoquip_solver/Cargo.toml",
+		"/C/dev/ViewpostPSModules/VPDev/VPDev.psm1",
+		"/C/Users/ms4775/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/C/dev/git/payments/source/Viewpost.Payments.DatabaseInstaller/bin/Debug/Squealer.exe.config",
+		"/C/dev/BankFileDropFolderRoot/WellsFargoBank/Ach/Publish/Success/WELLSFARGOBANK_20130528_2054_A.ach",
+		"/C/temp/ach1.ach",
+		"/C/temp/ach2.ach",
+		"/C/temp/ach3..ach",
+		"/C/temp/ach4.ach",
+		"/C/temp/WELLSFARGOBANK_20130528_2054_A.ach",
+		"/C/temp/WELLSFARGOBANK_20130528_2054_B.ach",
+		"/C/temp/WELLSFARGOBANK_20150310_1311_A.ach",
+		"/C/dev/BankFileDropFolderRoot/WellsFargoBank/Ach/Publish/Success/WELLSFARGOBANK_20130528_2054_B.ach",
+		"/C/dev/temp/test.ach",
+		"/C/dev/BankFileDropFolderRoot/WellsFargoBank/Ach/Finalize/Success/WELLSFARGOBANK_20130528_2054_B.ach.xml",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedApps/Viewpost.Payments.CommandHandlers.StageIclPayment.RegionsBank/Viewpost.Payments.CommandHandlers.StageIclPayment.dll.config.ps1",
+		"/C/dev/git/payments-config/Variables.ps1",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedWebsites/Viewpost.Payments.Api/Web.config.ps1",
+		"/C/Users/ms4775/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/B6NC09Q8/EPIQSYSTEMS_0000_T_20150225_125853_01_PNS_SCAN_Companion.xml",
+		"/C/dev/temp/payments/PnS Files/schema-pns-summary.xsd",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150302_213339_02_PNS_SCAN_companion.xml",
+		"/C/dev/ViewpostPSModules/VPQueues/VPQueues.psm1",
+		"/C/dev/git/strawman/.git/hooks/post-checkout",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedApps/Viewpost.Payments.CommandHandlers.PrintCheckImages/Viewpost.Payments.CommandHandlers.PrintCheckImages.dll.config.ps1",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedApps/Viewpost.Payments.CommandHandlers.PrintCheckImagesBanks/Viewpost.Payments.CommandHandlers.PrintCheckImages.dll.config.ps1",
+		"/C/dev/temp/EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_SCAN_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150227_152358_88_PNS_SCAN_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150227_140308_87_PNS_SCAN_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_214500_86_PNS_SCAN_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_214101_85_PNS_ORIG_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_213343_84_PNS_ORIG_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_213229_83_PNS_ORIG_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_213111_82_PNS_ORIG_companion.xml",
+		"/C/dev/temp/Test/EPIQSYSTEMS_0000_T_20150226_211258_81_PNS_ORIG_companion.xml",
+		"/C/Users/ms4775/AppData/Local/Temp/7zOBB2B.tmp/EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_SCAN_companion.xml",
+		"/C/dev/git/payments/source/ServiceLogs/Viewpost.Payments.CommandHandlers.PrepareCheckImage.Log",
+		"/C/dev/logs/Viewpost.Payments.CommandHandlers.PrepareCheckImage.Log",
+		"/C/dev/ServiceLogs/Viewpost.Payments.CommandHandlers.PrepareCheckImage.Log",
+		"/C/dev/git/payments/scripts/Modules/VPPayments/VPPayments.psm1",
+		"/C/Users/ms4775/Downloads/developauto.VP.PAY.CH.RetrieveIclAckFiles@USGAVPAY11.Log",
+		"/C/dev/git/zuul/source/application/_/Program.cs",
+		"/C/dev/git/payments/Utilities/AutomatedTestTools/Run-PaymentsEndToEndTests.ps1",
+		"/C/dev/git/payments-config/transformations/global/global-post.ps1",
+		"/C/dev/git/payments-config/transformations/tree/Configuration/Log4Net.config.ps1",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedApps/Viewpost.Payments.Test.Runner/Viewpost.Payments.Test.Runner.exe.config.ps1",
+		"/C/dev/git/payments-config/transformations/global/global-pre.ps1",
+		"/C/dev/FTP/EpiqSystems/PnS/Ack/ACK_EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_ORIG.xml",
+		"/C/dev/git/payments/scripts/UpdateDatabase.ps1",
+		"/C/dev/git/strawman/source/application/AppServices/ConnectionStrings.config",
+		"/C/dev/git/payments/scripts/ClearPaymentsData.sql",
+		"/C/dev/ViewpostPSModules/VPSquealer/VPSquealer.psm1",
+		"/C/dev/git/payments/scripts/update-databases.ps1",
+		"/C/dev/git/strawman/scripts/UpdateDatabase.ps1",
+		"/C/dev/FTP/EpiqSystems/PnS/Publish/EPIQSYSTEMS_0000_T_20150202_151134_12_PNS_ORIG_companion.xml",
+		"/C/dev/ViewpostPSModules/VPRequestResponse/VPRequestResponse.psm1",
+		"/C/Users/ms4775/Documents/Test Powershell Scripts/test.ps1",
+		"/C/dev/git/payments/scripts/init-databases.ps1",
+		"/C/dev/git/strawman/source/application/AppServices/Web.config",
+		"/C/dev/temp/payments/PnS Files/Scenario7/ES Summary/EPIQSYSTEMS_0000_T_20140611_200909_01_PNS_ES_SUMMARY.xml",
+		"/C/dev/FTP/EpiqSystems/PnS/Summary/EPIQSYSTEMS_0000_T_20150128_105501_00_PNS_ES_SUMMARY.xml",
+		"/C/dev/temp/payments/PnS Files/Scenario6/ES Summary/EPIQSYSTEMS_0000_T_20140611_200909_01_PNS_ES_SUMMARY.xml",
+		"/C/dev/temp/payments/PnS Files/Scenario5/ES Summary/EPIQSYSTEMS_0000_T_20140611_200101_01_PNS_ES_SUMMARY.xml",
+		"/C/dev/temp/payments/PnS Files/Scenario7/Request/EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_ORIG_companion.xml",
+		"/C/dev/temp/payments/PnS Files/Scenario7/Ack/ACK_EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_ORIG.xml",
+		"/C/dev/temp/DistributerTest/Distributor/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config",
+		"/C/dev/temp/payments/PnS Files/Scenario1/Response/EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_SCAN_companion.xml",
+		"/C/dev/temp/DistributerTest/RunEnvironment.ps1",
+		"/C/dev/git/strawman/packages/Newtonsoft.Json.6.0.4/tools/install.ps1",
+		"/C/dev/git/payments/scripts/Prototypes/SetupDebugEnvironment.ps1",
+		"/C/dev/temp/payments/PnS Files/Scenario1/Ack/ACK_EPIQSYSTEMS_0000_T_20140611_094816_05_PNS_ORIG.xml",
+		"/C/dev/git/payments/scripts/Prototypes/RunTestDistributerEnvironment.ps1",
+		"/C/dev/git/strawman/packages/Newtonsoft.Json.6.0.4/tools/SetupDebugEnvironment",
+		"/C/dev/git/payments/scripts/Prototypes/PrepareCheckImage-Worker.config",
+		"/C/dev/git/payments/scripts/RunTestDistributerEnvironment.ps1",
+		"/C/dev/git/payments-config/transformations/tree/_PublishedApps/Viewpost.Payments.CommandHandlers.PrepareCheckImage/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config.ps1",
+		"/C/dev/temp/DistributerTest/Worker1/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config",
+		"/C/dev/temp/DistributerTest/Worker2/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config",
+		"/C/dev/temp/DistributerTest/Distributer/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PrepareCheckImage/App.config",
+		"/C/dev/ViewpostPSModules/VPCore/VPCore.psm1",
+		"/C/dev/temp/xloom-local/xloom-local-tester.ps1",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PrepareCheckImage/bin/Debug - Test/Viewpost.Payments.CommandHandlers.PrepareCheckImage.dll.config",
+		"/C/dev/git/payments/Payments.sln",
+		"/C/dev/git/payments/source/Viewpost.Payments.Test.Automation/Viewpost.Payments.Test.Automation.csproj",
+		"/C/dev/git/strawman/scripts/update-databases.ps1",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.GenerateCheckImage/bin/Debug - Test/Viewpost.Payments.CommandHandlers.GenerateCheckImage.dll.config",
+		"/C/dev/git/payments/scripts/UpdateLocalDevEndpoints.ps1",
+		"/C/dev/git/strawman/scripts/init-databases.ps1",
+		"/C/dev/git/payments/Payments.v12.suo",
+		"/C/dev/git/payments/source/Viewpost.Payments.StubbedHandlers.RetrievePaymentInformationStub/Viewpost.Payments.StubbedHandlers.RetrievePaymentInformationStub.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.Client/Viewpost.Payments.Client.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.CommandHandlers.AssessPaymentRisk/Viewpost.RiskAnalysis.CommandHandlers.AssessPaymentRisk.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.Wcf/Viewpost.Payments.Wcf.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.Test.Facilitation/Viewpost.Payments.Test.Facilitation.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.CommandHandlers.PerformPaymentInvestigation/Viewpost.RiskAnalysis.CommandHandlers.PerformPaymentInvestigation.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.Profiles/Viewpost.RiskAnalysis.Profiles.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.CommandHandlers.Api/Viewpost.RiskAnalysis.CommandHandlers.Api.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.EventHandlers.Audit/Viewpost.RiskAnalysis.EventHandlers.Audit.csproj",
+		"/C/dev/git/payments/source/Viewpost.RiskAnalysis.Sagas.CoordinatePaymentInvestigation/Viewpost.RiskAnalysis.Sagas.CoordinatePaymentInvestigation.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.FinalizeIclFile/Viewpost.Payments.CommandHandlers.FinalizeIclFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.FinalizeAchFile/Viewpost.Payments.CommandHandlers.FinalizeAchFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.ExternalPublisher/Viewpost.Payments.CommandHandlers.ExternalPublisher.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandRouter/Viewpost.Payments.CommandRouter.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.FinalizePaperCheckFile/Viewpost.Payments.CommandHandlers.FinalizePaperCheckFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.GenerateCheckImage/Viewpost.Payments.CommandHandlers.GenerateCheckImage.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.GeneratePaperCheckDocument/Viewpost.Payments.CommandHandlers.GeneratePaperCheckDocument.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.LocalDev/Viewpost.Payments.CommandHandlers.LocalDev.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PrepareCheckImage/Viewpost.Payments.CommandHandlers.PrepareCheckImage.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PrintCheckImages/Viewpost.Payments.CommandHandlers.PrintCheckImages.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.ProcessIclAckFiles/Viewpost.Payments.CommandHandlers.ProcessIclAckFiles.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.ProcessPaperCheckAckFiles/Viewpost.Payments.CommandHandlers.ProcessPaperCheckAckFiles.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PublishAchFile/Viewpost.Payments.CommandHandlers.PublishAchFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PublishIclFile/Viewpost.Payments.CommandHandlers.PublishIclFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.PublishPaperCheckFile/Viewpost.Payments.CommandHandlers.PublishPaperCheckFile.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.RetrieveIclAckFiles/Viewpost.Payments.CommandHandlers.RetrieveIclAckFiles.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.RetrievePaperCheckAckFiles/Viewpost.Payments.CommandHandlers.RetrievePaperCheckAckFiles.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.VerifyPaperCheckPayment/Viewpost.Payments.CommandHandlers.VerifyPaperCheckPayment.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.VerifyIclPayment/Viewpost.Payments.CommandHandlers.VerifyIclPayment.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.VerifyAchPayment/Viewpost.Payments.CommandHandlers.VerifyAchPayment.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.StagePaperCheckPayment/Viewpost.Payments.CommandHandlers.StagePaperCheckPayment.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.StageIclPayment/Viewpost.Payments.CommandHandlers.StageIclPayment.csproj",
+		"/C/dev/git/payments/source/Viewpost.Payments.CommandHandlers.StageAchPayment/Viewpost.Payments.CommandHandlers.StageAchPayment.csproj"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DevelopAuto",
+			"RetrieveImageack",
+			"process",
+			"delete",
+			"clear",
+			"clearing mes",
+			"\"",
+			"Downloa",
+			"downloa",
+			"include-q",
+			"appSettings",
+			"appset",
+			"LoadWithPart",
+			"messaging",
+			"Invoke-Env",
+			"Invoke\\-Env",
+			"Invoke-Env",
+			"Invoke-Envir",
+			"}\n",
+			"invoke-envi",
+			"set-databaseuser",
+			" \\(",
+			"\\(irrelevant\\)",
+			"\\(\".*MakeFullPatchName\\(",
+			"            ",
+			"export",
+			"^.*Payments\\.Test.*$",
+			"$",
+			"^",
+			"$",
+			" .*",
+			"delete from",
+			"\"\"",
+			"\"",
+			"  ",
+			"StagedPayments",
+			"includequeues",
+			"Queues",
+			"VPRequestTypes",
+			"VPRequestInterface",
+			"queue",
+			"git",
+			"  <PropertyGroup Condition=\"'$(Configuration)|$(Platform)' == 'Debug - Minimal NSB|AnyCPU'\">\n    <OutputPath>bin\\Debug - Minimal NSB\\</OutputPath>\n  </PropertyGroup>",
+			"  </PropertyGroup>\n  <PropertyGroup Condition=\"'$(Configuration)|$(Platform)' == 'Debug - Minimal NSB|AnyCPU'\">\n    <OutputPath>bin\\Debug - Minimal NSB\\</OutputPath>\n  </PropertyGroup>",
+			".config",
+			"\"",
+			"Database",
+			"initial",
+			"$",
+			"\"path\"",
+			"VPSqlServerInstance -",
+			"Data",
+			"token",
+			"%}\n",
+			"initialize",
+			"team",
+			"1",
+			"5",
+			"tab_",
+			"tab",
+			"json",
+			"\"",
+			")\n",
+			"WherePropertyDirection",
+			"Where-VPPropertyDirection",
+			"invoke-code",
+			"where-vp",
+			"where-",
+			"Convert-",
+			"Enable-",
+			"Get-BranchName",
+			"-VP",
+			"Require",
+			"newline",
+			"Get-AssembliesFromDirectory",
+			"Get-AssembliesFromZip",
+			"Get-AssembliesFromTeamCity",
+			"get-teamn",
+			"update-v",
+			"\")",
+			"[void]$markdownBuilder.AppendLine(",
+			".parameter",
+			"Configurebus",
+			"@",
+			"41",
+			"restore-vpd",
+			"append",
+			"email",
+			"VPContractXml",
+			"GenerateConstant",
+			"GenerateValidationConstants",
+			"email",
+			"GenerateImportEmailAddressPropertyXml",
+			"get-",
+			"ConnectionStrings",
+			"Connection",
+			"Gitbranch",
+			"export-zip",
+			"export-",
+			"onsetype",
+			"$",
+			"^",
+			"\\=>.*$",
+			"Binaries/",
+			"-VP",
+			"update-vpd",
+			"tabs",
+			"\"\n",
+			"-VP",
+			"bin\\",
+			"..\\..\\..\\Binaries",
+			"C:\\users",
+			"44302",
+			"Appservices",
+			"dependency",
+			"EntityFrameworkProfiler",
+			"efprof",
+			"Start-vpstra",
+			"restore-vpd",
+			"Set-",
+			"restore-vpd",
+			"update-vpd",
+			"update ser",
+			"update serv",
+			"setting",
+			"settings",
+			"responseidenti",
+			"326"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"ReleaseAuto",
+			"\"\"",
+			"    \\(",
+			"",
+			"(",
+			"",
+			"\", typeof(string));",
+			"table.Columns.Add(\"",
+			"",
+			"alter table ",
+			"\"",
+			"\"\"",
+			"",
+			"  <PropertyGroup Condition=\"'$(Configuration)|$(Platform)' == 'Debug - Minimal NSB|AnyCPU'\">\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>full</DebugType>\n    <Optimize>false</Optimize>\n    <OutputPath>bin\\Debug - Minimal NSB\\</OutputPath>\n    <DefineConstants>DEBUG;TRACE</DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>\n    <CodeAnalysisRuleSet>..\\..\\Viewpost.ruleset</CodeAnalysisRuleSet>\n    <RunCodeAnalysis>false</RunCodeAnalysis>\n    <StartAction>Program</StartAction>\n    <StartProgram>$(MSBuildProjectDirectory)\\$(OutputPath)NServiceBus.Host.exe</StartProgram>\n    <StartArguments>NServiceBus.Production Viewpost.Payments.Test.Facilitation.Profiles.TestProfile</StartArguments>\n    <Prefer32Bit>false</Prefer32Bit>\n  </PropertyGroup>",
+			"\"\"",
+			"}",
+			"{ \"path\"",
+			"`\"",
+			"Get-VPCurrentBranchName",
+			"-",
+			"doubleNewline",
+			"GetAssembliesFromDirectory",
+			"GetAssembliesFromZip",
+			"GetAssembliesFromTeamCity",
+			"\" | Out-Host",
+			"",
+			"\" target=\"content\" />",
+			"<file src=\"",
+			"",
+			"-",
+			"",
+			"-",
+			"bin"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/utils/dictionary_reader.rs",
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/utils/cryptoquip_input_reader.rs",
+					"settings":
+					{
+						"buffer_size": 943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/alpha/mod.rs",
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/alpha/fingerprinter.rs",
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/alpha/types.rs",
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rust/Rust.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}
