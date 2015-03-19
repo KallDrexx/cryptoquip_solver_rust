@@ -43,7 +43,6 @@ pub fn read_input<T: Read>(mut reader: BufReader<T>) -> Vec<types::Fingerprinted
 #[cfg(test)]
 mod tests {
 	use std::io::BufReader;
-	use std::io::Read;
 	use std::io::Cursor;
 	use super::*;
 
