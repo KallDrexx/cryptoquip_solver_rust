@@ -22,8 +22,6 @@ pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types
 			break;
 		}
 
-		println!("line = {:?}", line);
-
 		let mut trimmed_line = String::new();
         for character in line.chars() {
             if character.is_alphabetic() {
@@ -37,7 +35,6 @@ pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types
         };
 
         for candidate in candidates.iter_mut() {
-        	println!("{} == {}?", candidate.input.fingerprinted, dictionary_value.original);
         	if candidate.input.fingerprinted == dictionary_value.fingerprinted {
         		candidate.possibilities.push(dictionary_value.clone());
         	}
