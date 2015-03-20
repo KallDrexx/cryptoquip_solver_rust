@@ -1,6 +1,7 @@
 use std::io::BufReader;
 use std::io::BufRead;
 use std::io::Read;
+use std::collections::HashMap;
 use types;
 use fingerprinter;
 
@@ -34,9 +35,14 @@ pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types
         	fingerprinted: fingerprinter::get_fingerprint(&trimmed_line[..])
         };
 
+        let possibility = types::Possibility {
+        	mapping: HashMap::new(),
+        	fingerprint: dictionary_value
+        };
+
         for candidate in candidates.iter_mut() {
-        	if candidate.input.fingerprinted == dictionary_value.fingerprinted {
-        		candidate.possibilities.push(dictionary_value.clone());
+        	if candidate.input.fingerprinted == possibility.fingerprint.fingerprinted {
+        		candidate.possibilities.push(possibility.clone());
         	}
         }
 	}
@@ -110,14 +116,14 @@ mod tests {
 		assert_eq!(output[0].input.original, "me");
 		assert_eq!(output[0].input.fingerprinted, "ab");
 		assert_eq!(output[0].possibilities.len(), 2);
-		assert_eq!(output[0].possibilities[0].original, "as");
-		assert_eq!(output[0].possibilities[0].fingerprinted, "ab");
-		assert_eq!(output[0].possibilities[1].original, "to");
-		assert_eq!(output[0].possibilities[1].fingerprinted, "ab");
+		assert_eq!(output[0].possibilities[0].fingerprint.original, "as");
+		assert_eq!(output[0].possibilities[0].fingerprint.fingerprinted, "ab");
+		assert_eq!(output[0].possibilities[1].fingerprint.original, "to");
+		assert_eq!(output[0].possibilities[1].fingerprint.fingerprinted, "ab");
 	}
 
 	#[test]
-	fn reads_and_fingerprints_single_value() {
+	fn reads_and_fingerprints_single_value_input() {
 		let input = "testing\n".to_string();
 		let buf_reader = create_buf_reader(input);
 
@@ -128,7 +134,7 @@ mod tests {
 	}
 
 	#[test]
-	fn reads_and_fingerprints_multiple_values() {
+	fn reads_and_fingerprints_multiple_values_input() {
 		let input = "my test\n".to_string();
 		let buf_reader = create_buf_reader(input);
 		let output = read_input(buf_reader);
