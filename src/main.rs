@@ -2,8 +2,7 @@
 
 mod types;
 mod fingerprinter;
-mod input_reader;
-mod dictionary_reader;
+mod value_readers;
 
 //static INPUT_FILE: &'static str = "input.txt";
 
