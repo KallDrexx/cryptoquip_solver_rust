@@ -14,5 +14,5 @@ pub struct InputValue {
 #[derive(Clone)]
 pub struct Possibility {
 	pub fingerprint: FingerprintedValue,
-	pub mapping: HashMap<char, char>
+	pub char_mapping: HashMap<char, char>
 }

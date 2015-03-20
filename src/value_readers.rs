@@ -36,7 +36,7 @@ pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types
         };
 
         let possibility = types::Possibility {
-        	mapping: HashMap::new(),
+        	char_mapping: HashMap::new(),
         	fingerprint: dictionary_value
         };
 
