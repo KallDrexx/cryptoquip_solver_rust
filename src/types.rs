@@ -4,7 +4,7 @@ pub struct FingerprintedValue {
     pub fingerprinted: String
 }
 
-pub struct Candidate {
+pub struct InputValue {
 	pub input: FingerprintedValue,
 	pub possibilities: Vec<FingerprintedValue> 
 }

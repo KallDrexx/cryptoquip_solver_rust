@@ -4,12 +4,12 @@ use std::io::Read;
 use types;
 use fingerprinter;
 
-pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types::FingerprintedValue>) -> Vec<types::Candidate> {
+pub fn get_candidates<T: Read>(mut reader: BufReader<T>, input_values: Vec<types::FingerprintedValue>) -> Vec<types::InputValue> {
 	let mut candidates = Vec::new();
 
 	// Pre-create the candidates
 	for input in input_values.into_iter() {
-		candidates.push(types::Candidate {
+		candidates.push(types::InputValue {
 			input: input,
 			possibilities: Vec::new()
 		})
