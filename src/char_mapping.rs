@@ -15,6 +15,17 @@ pub fn update_mappings(input: &str, candidate: &str, mapping: &mut HashMap<char,
 	}
 }
 
+pub fn are_compatible(left: &HashMap<char, char>, right: &HashMap<char, char>) -> bool {
+	for (left_key, left_value) in left.iter() {
+		match right.get(left_key) {
+			Some(right_value) => if left_value != right_value { return false },
+			None => ()
+		}
+	}
+
+	return true;
+}
+
 #[cfg(test)]
 mod tests {
 	use super::*;
@@ -33,5 +44,35 @@ mod tests {
 		assert_eq!(mapping.get(&'b'), Some(&'x'));
 		assert_eq!(mapping.get(&'c'), Some(&'y'));
 		assert_eq!(mapping.get(&'d'), Some(&'z'));
+	}
+
+	#[test]
+	fn hash_maps_with_same_key_value_pairs_are_compatible() {
+		let mut left = HashMap::new();
+		let mut right = HashMap::new();
+
+		left.insert('a', 'b');
+		left.insert('b', 'c');
+
+		right.insert('d', 'e');
+		right.insert('a', 'b');
+
+		let result = are_compatible(&left, &right);
+		assert_eq!(result, true);
+	}
+
+	#[test]
+	fn hash_maps_with_conflicting_values_are_not_compatible() {
+		let mut left = HashMap::new();
+		let mut right = HashMap::new();
+
+		left.insert('a', 'b');
+		left.insert('b', 'c');
+
+		right.insert('b', 'd');
+		right.insert('a', 'b');
+
+		let result = are_compatible(&left, &right);
+		assert_eq!(result, false);
 	}
 }
