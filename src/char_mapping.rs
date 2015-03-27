@@ -34,15 +34,22 @@ pub fn get_compatibility(left: &HashMap<char, char>, right: &HashMap<char, char>
 	return types::Compatibility::TotalMatches(total_matches);
 }
 
-pub fn get_map_concatenation(maps: Vec<HashMap<char, char>>) -> HashMap<char, char> {
+pub fn get_map_concatenation(maps: Vec<HashMap<char, char>>) -> Option<HashMap<char, char>> {
 	let mut concatenated_map = HashMap::new();
 	for comparison_map in maps.into_iter() {
 		for (comparison_key, comparison_value) in comparison_map.iter() {
-			concatenated_map.insert(comparison_key.clone(), comparison_value.clone());
+			match concatenated_map.insert(comparison_key.clone(), comparison_value.clone()) {
+				None => (), // New value, it's all good
+				Some(x) => {
+					if &x != comparison_value {
+						return None;
+					}
+				}
+			}
 		}
 	}
 
-	return concatenated_map;
+	return Some(concatenated_map);
 }
 
 #[cfg(test)]
@@ -115,11 +122,29 @@ mod tests {
 		maps.push(map2);
 		maps.push(map3);
 
-		let result = get_map_concatenation(maps);
+		let result = get_map_concatenation(maps).unwrap();
 		assert_eq!(result.len(), 4);
 		assert_eq!(result.get(&'a'), Some(&'b'));
 		assert_eq!(result.get(&'b'), Some(&'c'));
 		assert_eq!(result.get(&'c'), Some(&'d'));
 		assert_eq!(result.get(&'d'), Some(&'e'));
+	}
+
+	#[test]
+	fn incompatible_maps_return_none() {
+		let mut maps = Vec::new();
+		let mut map1 = HashMap::new();
+		let mut map2 = HashMap::new();
+
+		map1.insert('a', 'b');
+		map1.insert('b', 'c');
+		map2.insert('b', 'd');
+		map2.insert('c', 'd');
+
+		maps.push(map1);
+		maps.push(map2);
+
+		let result = get_map_concatenation(maps);
+		assert!(result.is_none())
 	}
 }
