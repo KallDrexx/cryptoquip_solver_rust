@@ -34,6 +34,17 @@ pub fn get_compatibility(left: &HashMap<char, char>, right: &HashMap<char, char>
 	return types::Compatibility::TotalMatches(total_matches);
 }
 
+pub fn get_map_concatenation(maps: Vec<HashMap<char, char>>) -> HashMap<char, char> {
+	let mut concatenated_map = HashMap::new();
+	for comparison_map in maps.into_iter() {
+		for (comparison_key, comparison_value) in comparison_map.iter() {
+			concatenated_map.insert(comparison_key.clone(), comparison_value.clone());
+		}
+	}
+
+	return concatenated_map;
+}
+
 #[cfg(test)]
 mod tests {
 	use super::*;
@@ -85,5 +96,30 @@ mod tests {
 
 		let result = get_compatibility(&left, &right);
 		assert_eq!(result, types::Compatibility::Incompatible);
+	}
+
+	#[test]
+	fn can_concat_compatible_maps() {
+		let mut maps = Vec::new();
+		let mut map1 = HashMap::new();
+		let mut map2 = HashMap::new();
+		let mut map3 = HashMap::new();
+
+		map1.insert('a', 'b');
+		map1.insert('b', 'c');
+		map2.insert('b', 'c');
+		map2.insert('c', 'd');
+		map3.insert('d', 'e');
+
+		maps.push(map1);
+		maps.push(map2);
+		maps.push(map3);
+
+		let result = get_map_concatenation(maps);
+		assert_eq!(result.len(), 4);
+		assert_eq!(result.get(&'a'), Some(&'b'));
+		assert_eq!(result.get(&'b'), Some(&'c'));
+		assert_eq!(result.get(&'c'), Some(&'d'));
+		assert_eq!(result.get(&'d'), Some(&'e'));
 	}
 }
