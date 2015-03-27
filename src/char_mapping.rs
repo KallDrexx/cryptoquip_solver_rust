@@ -48,6 +48,18 @@ pub fn get_largest_map(maps: Vec<&HashMap<char, char>>) -> Option<&HashMap<char,
 	return largest_map;
 }
 
+pub fn apply_mapping(input: &str, mapping: &HashMap<char, char>) -> String {
+	let mut output = String::new();
+	for character in input.chars() {
+		match mapping.get(&character) {
+			None => output.push(character),
+			Some(x) => output.push(x.clone())
+		};
+	}
+
+	return output;
+}
+
 #[cfg(test)]
 mod tests {
 	use super::*;
@@ -130,5 +142,15 @@ mod tests {
 		let result = get_largest_map(maps);
 		assert!(result.is_some());
 		assert_eq!(result.unwrap(), &map2);
+	}
+
+	#[test]
+	fn correctly_returns_string_by_applying_mapping() {
+		let input = "aba";
+		let mut map = HashMap::new();
+		map.insert('a', 'b');
+
+		let result = apply_mapping(input, &map);
+		assert_eq!(result, "bbb");
 	}
 }
