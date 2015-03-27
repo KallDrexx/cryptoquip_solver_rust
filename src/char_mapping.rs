@@ -33,6 +33,21 @@ pub fn get_map_concatenation(maps: Vec<&HashMap<char, char>>) -> Option<HashMap<
 	return Some(concatenated_map);
 }
 
+pub fn get_largest_map(maps: Vec<&HashMap<char, char>>) -> Option<&HashMap<char, char>> {
+	let mut largest_map = None;
+	for comparison_map in maps.into_iter() {
+		if largest_map.is_none() {
+			largest_map = Some(comparison_map);
+		} else {
+			if largest_map.unwrap().len() < comparison_map.len() {
+				largest_map = Some(comparison_map);
+			}
+		}
+	}
+
+	return largest_map;
+}
+
 #[cfg(test)]
 mod tests {
 	use super::*;
@@ -94,5 +109,26 @@ mod tests {
 
 		let result = get_map_concatenation(maps);
 		assert!(result.is_none())
+	}
+
+	#[test]
+	fn largest_map_is_returned() {
+		let mut map1 = HashMap::new();
+		let mut map2 = HashMap::new();
+		let mut map3 = HashMap::new();
+		let mut maps = Vec::new();
+
+		map1.insert('a', 'b');
+		map2.insert('b', 'c');
+		map2.insert('c', 'd');
+		map3.insert('d', 'e');
+
+		maps.push(&map1);
+		maps.push(&map2);
+		maps.push(&map3);
+
+		let result = get_largest_map(maps);
+		assert!(result.is_some());
+		assert_eq!(result.unwrap(), &map2);
 	}
 }
